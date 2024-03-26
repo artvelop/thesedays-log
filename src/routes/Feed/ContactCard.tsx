@@ -7,9 +7,7 @@ import { Emoji } from "src/components/Emoji"
 const ContactCard: React.FC = () => {
   return (
     <>
-      <StyledTitle>
-        <Emoji>💬</Emoji> Contact
-      </StyledTitle>
+      <StyledTitle>{/* <Emoji>💬</Emoji> Contact */}</StyledTitle>
       <StyledWrapper>
         {CONFIG.profile.instagram && (
           <a
