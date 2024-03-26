@@ -1,11 +1,6 @@
 import styled from "@emotion/styled"
 import React from "react"
-import {
-  AiFillLinkedin,
-  AiOutlineGithub,
-  AiOutlineInstagram,
-  AiOutlineMail,
-} from "react-icons/ai"
+import { AiOutlineInstagram, AiOutlineMail } from "react-icons/ai"
 import { CONFIG } from "site.config"
 import { Emoji } from "src/components/Emoji"
 
@@ -16,16 +11,6 @@ const ContactCard: React.FC = () => {
         <Emoji>💬</Emoji> Contact
       </StyledTitle>
       <StyledWrapper>
-        {CONFIG.profile.github && (
-          <a
-            href={`https://github.com/${CONFIG.profile.github}`}
-            rel="noreferrer"
-            target="_blank"
-          >
-            <AiOutlineGithub className="icon" />
-            <div className="name">github</div>
-          </a>
-        )}
         {CONFIG.profile.instagram && (
           <a
             href={`https://www.instagram.com/${CONFIG.profile.instagram}`}
@@ -45,16 +30,6 @@ const ContactCard: React.FC = () => {
           >
             <AiOutlineMail className="icon" />
             <div className="name">email</div>
-          </a>
-        )}
-        {CONFIG.profile.linkedin && (
-          <a
-            href={`https://www.linkedin.com/in/${CONFIG.profile.linkedin}`}
-            rel="noreferrer"
-            target="_blank"
-          >
-            <AiFillLinkedin className="icon" />
-            <div className="name">linkedin</div>
           </a>
         )}
       </StyledWrapper>
