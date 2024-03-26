@@ -37,10 +37,13 @@ const ContactCard: React.FC = () => {
 
 export default ContactCard
 
-const StyledTitle = styled.div`
-  padding: 0.25rem;
-  margin-bottom: 0.75rem;
-`
+// const StyledTitle = styled.div`
+//   padding: 0.25rem;
+//   margin-bottom: 0.75rem;
+// `
+
+const StyledTitle = styled.div``
+
 const StyledWrapper = styled.div`
   display: flex;
   padding: 0.25rem;
