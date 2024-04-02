@@ -3,7 +3,7 @@ const CONFIG = {
   profile: {
     name: "요즘세상",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "우리가 살아가는 이야기",
+    role: "우리가 살아가는 이야기들",
     bio: "다양한 생각을 관찰해봐요",
     email: "popp30@naver.com",
     // linkedin: "morethanmin",
@@ -18,7 +18,7 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "요즘세상-우리가 살아가는 이야기",
+    title: "요즘세상-우리가 살아가는 이야기들",
     description: "다양한 생각을 관찰해봐요",
   },
 
